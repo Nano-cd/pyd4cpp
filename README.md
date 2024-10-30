@@ -33,3 +33,11 @@ Python的lib和include路径。
 
 2、C++调用函数，需要包含#include <python.h>头文件，具体代码如下：
 [cthonApplicaiton.cpp](cthonApplicaiton.cpp)
+
+
+Python 调用
+-------------
+
+1、将生成的pyd文件直接放进python路径下的DLL文件库中：
+C:\Users\Lfchengdi\AppData\Local\Programs\Python\Python38\DLLs，
+然后你就可以像掉库那样直接import your_module了
